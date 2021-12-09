@@ -9,7 +9,9 @@ namespace OOP_1.Tests.NUnit
         [Test]
         public void Numelemetodeipecareotestam_WhenAnumiteconditii_ThanSeintamplaceva()
         {
-            Assert.Pass();
+            int[] Vector1 = { 1 , 2 };
+            int frequencies = ArrayHelper.Identitate(Vector1);
+            Assert.AreEqual( 3 , 2 , frequencies );
         }
     }
 }
